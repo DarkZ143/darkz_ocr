@@ -1,5 +1,5 @@
 const installer = 'https://pub-8b7757f6961e4446bb1e0473b118ad34.r2.dev/Darkz%20OCR%20Utility%20Setup%201.0.0.exe';
-const portable = '/downloads/Darkz-OCR-Utility-1.0.0-portable.exe';
+const portable = 'https://pub-8b7757f6961e4446bb1e0473b118ad34.r2.dev/Darkz-OCR-Utility-1.0.0-portable.exe';
 
 function Mark({ small = false }: { small?: boolean }) {
   return (
@@ -111,7 +111,7 @@ export default function DownloadPage() {
             <h3>Portable Version</h3>
             <p>Run Darkz directly from a folder or USB drive. No installer required.</p>
             <div className="card-meta"><span>Version 1.0.0</span><i /><span>64-bit</span></div>
-            <a className="button button-secondary card-button" href={portable} download><DownloadIcon />Download portable <ArrowIcon /></a>
+            <a className="button button-secondary card-button" href={portable}><DownloadIcon />Download portable <ArrowIcon /></a>
             <small className="download-note">Portable app · EXE</small>
           </article>
         </div>

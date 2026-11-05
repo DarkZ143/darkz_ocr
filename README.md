@@ -18,4 +18,4 @@ npm.cmd run build
 npm.cmd start
 ```
 
-The installer download is hosted on Cloudflare R2 and configured in `src/app/page.tsx`. The portable build is served from `public/downloads/`. To publish a new release, update the hosted installer URL, replace the portable `.exe`, and update the displayed version in `src/app/page.tsx`.
+Both installer downloads are hosted on Cloudflare R2 and configured in `src/app/page.tsx`. To publish a new release, update both hosted URLs and the displayed version there.
