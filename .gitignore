@@ -1,5 +1,37 @@
+# Dependencies
 node_modules/
+
+# Next.js
 .next/
+next-env.d.ts
+
+# Build outputs
 out/
 build/
-next-env.d.ts
+dist/
+dist-electron/
+release/
+
+# Executable files
+*.exe
+*.msi
+*.app
+*.dmg
+*.deb
+*.rpm
+
+# Downloaded installers
+public/downloads/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
